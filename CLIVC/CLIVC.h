@@ -1,11 +1,11 @@
 #ifndef CLIVC_H
 #define CLIVC_H
+#include "stdio.h"
 
 class LIVC{
-    private:
-        int pass;
     public:
-        char file_path;
+        FILE file_path;
+        char var_type;
 };
 
 #endif
